@@ -98,7 +98,7 @@ if __name__ == "__main__":
             
             os.startfile(codePath)
 
-        elif 'email to harry' in query:
+        elif 'email to nishant' in query:
             try:
                 speak("What should I say?")
                 content = takeCommand()
@@ -107,4 +107,7 @@ if __name__ == "__main__":
                 speak("Email has been sent!")
             except Exception as e:
                 print(e)
-                speak("Sorry Sir. I am not able to send this email")    
+                speak("Sorry Sir. I am not able to send this email")  
+
+        elif 'quit' in query:
+            exit()  
