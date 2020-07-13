@@ -1,2 +1,2 @@
-# project1
-this is my python project
+# PERSONAL JARVIS
+this is my personal jarvis which can do your daily basic work.
